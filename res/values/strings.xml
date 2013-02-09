@@ -1,0 +1,49 @@
+<resources>
+
+    <string name="app_name">Peregri-Go!</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_okno_glowne">Okno Główne</string>
+    <string name="but_scan_label">Skanuj</string>
+    <string name="typ_trasy_label">Typ trasy:</string>
+    <string name="wybor_trasy_label">Wybrana trasa:</string>
+    <string name="radio_but_trasa1_label">Trasa edukacyjna</string>
+    <string name="radio_but_trasa2_label">Trasa sportowa</string>
+    <string name="radio_but_trasa3_label">Trasa spacerowa</string>
+    <string name="but_start_label">Start!</string>
+    <string-array name="lista_tras">
+		<item>Czersk i okolice</item>
+		<item>Stawy Zalesiańskie wariant 1</item>
+		<item>Stawy Zalesiańskie wariant 2</item>
+		<item>Stawy Zalesiańskie wariant 3</item>
+		<item>Ślady starożytne Góry Kalwarii 1</item>
+		<item>Ślady starożytne Góry Kalwarii 2</item>
+		<item>Ślady starożytne Góry Kalwarii 3</item>        
+        <item>Zimne doły wariant 1</item>
+        <item>Zimne doły wariant 2</item>
+		<item>Zimne doły wariant 3</item>
+		<item>Zimne doły wariant 4</item>
+	</string-array>
+		<string name="czas_label">"Czas: "</string>
+		<string name="punkty_osiagniete_label">"Punkty osiągnięte: "</string>
+		<string name="punkty_ominiete_label">"Punkty ominięte: "</string>
+		<string name="punkty_do_zdobycia_label">Punkty do zdobycia: </string>
+		<string name="but_zakoncz_label">Zakończ :-(</string>
+		<string name="zero_wartosc">0</string>
+		<string name="nazwa_punktu_label">Nazwa punktu:</string>
+		<string name="nic_wartosc">brak nazwy</string>
+		<string name="lorem_ipsum_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam rhoncus, urna quam viverra nisi, in interdum massa nibh nec erat.
+		    	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam rhoncus, urna quam viverra nisi, in interdum massa nibh nec erat.
+		    	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tellus. Phasellus pharetra nulla ac diam. Quisque semper justo at risus. Donec venenatis, turpis vel hendrerit interdum, dui ligula ultricies purus, sed posuere libero dui id orci. Nam congue, pede vitae dapibus aliquet, elit magna vulputate arcu, vel tempus metus leo non est. Etiam sit amet lectus quis est congue mollis. Phasellus congue lacus eget neque. Phasellus ornare, ante vitae consectetuer consequat, purus sapien ultricies dolor, et mollis pede metus eget nisi. Praesent sodales velit quis augue. Cras suscipit, urna at aliquam rhoncus, urna quam viverra nisi, in interdum massa nibh nec erat.</string>
+		<string name="but_dalej_label">Dalej!</string>
+		<string name="zadanie_label">Zadanie:</string>
+		<string name="tresc_pytania">Tutaj jest treść pytania. ?</string>
+		<string name="odp_1_tresc">Odpowiedź 1</string>
+		<string name="odp_2_tresc">Odpowiedź 2</string>
+		<string name="odp_3_tresc">Odpowiedź 3</string>
+		<string name="opusciles_info">Ten punkt powinien być osiągnięty przez Ciebie później!</string>
+		<string name="but_wracam_label">Wracam i szukam opuszczone punkty</string>
+		<string name="but_opuszczam_label">Trudno, pomijam opuszczone punkty</string>
+		<string name="zly_punkt_info">To jest niewłaściwy punkt! Szukaj dalej.</string>
+		
+</resources>
