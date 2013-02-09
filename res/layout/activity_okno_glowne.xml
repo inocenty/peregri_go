@@ -111,7 +111,7 @@
                     android:text="@string/but_scan_label" />
 
                 <Button
-                    android:id="@+id/zakoncz"
+                    android:id="@+id/but_zakoncz"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"

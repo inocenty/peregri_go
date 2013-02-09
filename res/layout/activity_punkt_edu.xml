@@ -84,11 +84,11 @@
         android:gravity="bottom">
 
         <Button
-            android:id="@+id/dalej"
+            android:id="@+id/but_dalej"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-
             android:text="@string/but_dalej_label" />
+
     </LinearLayout>
 
 </LinearLayout>

@@ -65,10 +65,11 @@
         android:orientation="vertical" >
 
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/but_start"
             android:layout_width="119dp"
             android:layout_height="wrap_content"
             android:text="@string/but_start_label" />
+
     </LinearLayout>
 
 </LinearLayout>

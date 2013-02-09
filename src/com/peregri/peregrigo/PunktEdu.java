@@ -1,9 +1,13 @@
 package com.peregri.peregrigo;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.method.ScrollingMovementMethod;
 import android.view.Menu;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
 import android.widget.TextView;
 
 public class PunktEdu extends Activity {
@@ -14,8 +18,22 @@ public class PunktEdu extends Activity {
         setContentView(R.layout.activity_punkt_edu);
 
         ((TextView) findViewById(R.id.opis_punktu)).setMovementMethod(new ScrollingMovementMethod());
+
+        ((Button) findViewById(R.id.but_dalej)).setOnClickListener(new OnClickListener() {
+		    @Override
+		    public void onClick(View v) {
+		    	
+		    	// TODO: zanotuj poprawność odpowiedzi.
+		    	
+		    	Intent newActivity = new Intent(PunktEdu.this, OknoGlowne.class);
+		    	startActivity(newActivity);
+		    	finish();
+		    }
+        });
+        
         
     }
+
 
 	
     @Override

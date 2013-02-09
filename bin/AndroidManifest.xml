@@ -12,7 +12,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="PunktEdu"
+            android:name="WyborTrasy"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -20,6 +20,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="OknoGlowne" android:label="@string/app_name"></activity>
+        <activity android:label="@string/app_name" android:name="PunktEdu"></activity>
+        <activity android:label="@string/app_name" android:name="PunktSport"></activity>
+        <activity android:label="@string/app_name" android:name="Podsumowanie"></activity>
+        <activity android:label="@string/app_name" android:name="PunktZlaKolejnosc"></activity>
+        <activity android:label="@string/app_name" android:name="ZlyPunkt"></activity>
     </application>
 
 </manifest>

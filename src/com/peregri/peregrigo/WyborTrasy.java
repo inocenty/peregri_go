@@ -1,8 +1,12 @@
 package com.peregri.peregrigo;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
 
 public class WyborTrasy extends Activity {
 
@@ -10,6 +14,14 @@ public class WyborTrasy extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_wybor_trasy);
+		((Button) findViewById(R.id.but_start)).setOnClickListener(new OnClickListener() {
+		    @Override
+		    public void onClick(View v) {
+		    Intent newActivity = new Intent(WyborTrasy.this, OknoGlowne.class);
+		    startActivity(newActivity);
+		    finish();
+		    }
+		  });
 
         
     }

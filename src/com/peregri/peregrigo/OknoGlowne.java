@@ -26,7 +26,14 @@ public class OknoGlowne extends Activity {
 		    	 startActivityForResult(qrDroid, 0);
 		    }
 		  });
-        
+		((Button) findViewById(R.id.but_zakoncz)).setOnClickListener(new OnClickListener() {
+		    @Override
+		    public void onClick(View v) {
+		    finish();
+		    }
+		  });
+
+		
     }
 
 	@Override
@@ -36,13 +43,18 @@ public class OknoGlowne extends Activity {
 	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 		super.onActivityResult(requestCode, resultCode, data);
 		
-//		if( ACTIVITY_RESULT_QR_DRDROID==requestCode && null!=data && data.getExtras()!=null ) {
+//		TODO: oryginalnie powinniśmy sprawdzać exit-code: if( ACTIVITY_RESULT_QR_DRDROID==requestCode && null!=data && data.getExtras()!=null ) {
 		if(null!=data && data.getExtras()!=null ) {
 			String result = data.getExtras().getString("la.droid.qr.result");
-			//Just set result to EditText to be able to view it
-			TextView resultTxt = ( TextView ) findViewById(R.id.czas_label);
-			resultTxt.setText( result );
-			resultTxt.setVisibility(View.VISIBLE);
+			
+			//tutaj sprawdzamy, czy kod jest właściwy dla następnego punktu.
+			//Jeżeli tak, to wyświetlamy ekran właściwy dla typu trasy (sport, spacer, edu)
+			//Jeżeli nie ta kolejność, to wyświetlamy ekran "zla kolejność"
+			//Jeżeli to zły punkt (lub poprzedni, już zaliczony), to wyświetlamy ekran "zły punkt"
+		    Intent newActivity = new Intent(OknoGlowne.this, PunktEdu.class);
+		    startActivity(newActivity);
+		    finish();
+	
 		}
 	}
 		

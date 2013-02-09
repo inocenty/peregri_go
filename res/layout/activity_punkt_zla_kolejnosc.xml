@@ -23,14 +23,14 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/opusc"
+                    android:id="@+id/but_opusc"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:text="@string/but_opuszczam_label" />
 
                 <Button
-                    android:id="@+id/wracam"
+                    android:id="@+id/but_wracam"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"

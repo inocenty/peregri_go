@@ -28,7 +28,7 @@
 		<string name="punkty_osiagniete_label">"Punkty osiągnięte: "</string>
 		<string name="punkty_ominiete_label">"Punkty ominięte: "</string>
 		<string name="punkty_do_zdobycia_label">Punkty do zdobycia: </string>
-		<string name="but_zakoncz_label">Zakończ :-(</string>
+		<string name="but_zakoncz_label">Zakończ</string>
 		<string name="zero_wartosc">0</string>
 		<string name="nazwa_punktu_label">Nazwa punktu:</string>
 		<string name="nic_wartosc">brak nazwy</string>
@@ -45,5 +45,6 @@
 		<string name="but_wracam_label">Wracam i szukam opuszczone punkty</string>
 		<string name="but_opuszczam_label">Trudno, pomijam opuszczone punkty</string>
 		<string name="zly_punkt_info">To jest niewłaściwy punkt! Szukaj dalej.</string>
+		<string name="poprawnych_odpowiedzi_label">"Poprawnych odp.: "</string>
 		
 </resources>
