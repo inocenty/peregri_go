@@ -9,6 +9,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 
 import com.peregri.peregrigo.R;
+import com.peregri.peregrigo.runs.Run;
 
 public class OknoGlowne extends Activity {
 
@@ -45,7 +46,7 @@ public class OknoGlowne extends Activity {
 //		TODO: oryginalnie powinniśmy sprawdzać exit-code: if( ACTIVITY_RESULT_QR_DRDROID==requestCode && null!=data && data.getExtras()!=null ) {
 		if(null!=data && data.getExtras()!=null ) {
 			String result = data.getExtras().getString("la.droid.qr.result");
-			
+			Run.ostatni_punkt = result;
 			//tutaj sprawdzamy, czy kod jest właściwy dla następnego punktu.
 			//Jeżeli tak, to wyświetlamy ekran właściwy dla typu trasy (sport, spacer, edu)
 			//Jeżeli nie ta kolejność, to wyświetlamy ekran "zla kolejność"

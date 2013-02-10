@@ -11,6 +11,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.peregri.peregrigo.R;
+import com.peregri.peregrigo.runs.Run;
 
 public class PunktEdu extends Activity {
 
@@ -19,8 +20,10 @@ public class PunktEdu extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_punkt_edu);
 
-        ((TextView) findViewById(R.id.opis_punktu)).setMovementMethod(new ScrollingMovementMethod());
-
+        TextView opis = ((TextView) findViewById(R.id.opis_punktu));
+        opis.setMovementMethod(new ScrollingMovementMethod());
+        opis.setText(Run.ostatni_punkt);
+        
         ((Button) findViewById(R.id.but_dalej)).setOnClickListener(new OnClickListener() {
 		    @Override
 		    public void onClick(View v) {
